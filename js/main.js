@@ -22,7 +22,7 @@ function draw(){
         for (let i = 0; i < 10; i++) {
             let s = i*10
             let y = mouseY + i*s/2
-            ellipse( mouseX, y, s )
+            rect( mouseX, y, s, 50 )
         }
 
     }
