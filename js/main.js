@@ -15,8 +15,8 @@ function setup(){
 function draw(){
 
     if(mouseIsPressed){
-        let r = random(255)
-        let g = random(255)
+        let r = random(5)
+        let g = random(155)
         let b = random(255)
         fill( r, g, b )
         for (let i = 0; i < 10; i++) {
